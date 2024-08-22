@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 0;
+    background-color: rgb(255, 142, 48);
+    color: rgb(235, 193, 8);
+}
+
+header,
+section h2,
+section h3{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 42px;
+}
+
+body,
+input,
+textarea{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+input,
+textarea{
+    font-size: 10px;
+}
+
+
+header nav li,
+.acompanhe li{
+    display: inline;
+    margin-left: 14px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: rgb(235, 193, 8);
+    text-decoration: none;
+}
+
+
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header .conteiner,
+section .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section{
+    color:rgb(235, 193, 8)
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+
+section h3{
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+.capa {
+    max-width: 640px;
+    height: 480px;
+    width: 100%;
+    margin-right: 42px;
+}
+
+.contato {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+form input,
+form button,
+form textarea{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section textarea {
+    resize: none;
+    height: 180px;
+}
+
+.acompanhe img{
+    max-width: 36px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.acompanhe a{
+    text-decoration: none;
+}
+
+.pix {
+    max-width: 220px;
+}
+
+form button{
+    background-color: rgb(255, 142, 48) ;
+    color: #fff;
+    border-color: black;
+}
+
+form button:hover {
+    background-color:rgb(151, 70, 4);
+}
+
+input:focus , textarea:focus{
+    outline-color: rgb(235, 193, 8);
+}
+
+footer {
+    background-color: rgb(255, 142, 48);
+    padding: 16px 0;
+}
